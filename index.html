@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+ <!-- This is the document type declaration -->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">--> 
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <title>ENVIROMENTATL INTERFACE</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+ </head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <li style="float:left"><img src="/images/FinalLogo.png"></li>
+                <li><a href="index.html#speaker_anchor">Speaker</a></li> <!-- to turn thsi into a link we will use anchor tag mean <a> -->
+                <li><a href="index.html#register_anchor">Register</a></li>
+                <li><a href="index.html#timetable_area">Schedule</a></li>
+                <li><a href="index.html#speaker_anchor">Register</a></li>
+                <li><a href="index.html#speaker_anchor">Location</a></li>
+            </ul>
+        </nav>
+        <header>
+
+            <div id="herotype">
+                <h1 float="left">
+                    <span class="salmoncolor">
+                        <img src="/images/FinalLogo.png">
+                    </span>
+
+                    <span class="dankBlueColor">
+                        First Annual <br />
+                        Environmental<br />
+                        Conference <br />
+                        <br />
+                    </span>
+                </h1>
+
+                <h2 style="text-align:center">
+                    JANUARY 26-29 <br />
+                    MSSF Building, Bilkent University
+                </h2>
+
+            </div>
+            <div style="position:absolute; margin-left:150px ">
+                <img src="images/fly_birds2.gif" />
+
+            </div>
+        </header>
+
+        <div style="text-align : center;clear:both ;padding-top  :20px">
+            <blockquote>
+                <h3> <b>We are the "The Enviromentalist"</b></h3>
+                <p>
+                    Climate change is real, it is happening right now, it is the most urgent threat facing our entire species,
+                    and we need to work collectively together and stop procrastinating
+                    The Purpose of this converence is to speak for all of humanity ,for the indigenous peoples of the world,
+                    So that their voices can be heard under the cacophony of MultiMillion organizations
+                </p>
+            </blockquote>
+
+        </div>
+
+        <main id="speaker_anchor">
+            <h2 class=" dankBlueColor">SPEAKERS</h2>
+
+            <div>
+                <!-- -->
+
+                <div class="card">
+                    <img src="/images/Muki_1.jpg" />
+                    <h3 style="text-align : center">Muki Haklay</h3>
+                    <br />
+                    <h4>Princeton University <br />Geographic Information Science in the Department of Civil</h4>
+                    <p> Biography:His research interests include Public access and use of Environmental Information; Human-Computer Interaction (HCI) and Usability Engineering aspect</p>
+                </div>
+
+                <div class="card">
+                    <img src="/images/JennyAhlen.jpg" />
+                    <h3 style="text-align : center"> Jenny Ahlen</h3>
+                    <br />
+                    <h4> Environmental Defence Fund</h4>
+                    <br />
+                    <p> Jenny’s primary areas of responsibility include mitigating greenhouse gas impacts from Walmart’s supply chain, carbon life cycle inventory and analysis, and renewable energy</p>
+                </div>
+
+                <div class="card">
+                    <img src="/images/Leo.jpg" />
+                    <h3 style="text-align : center"> Leonardo Dicaprio</h3>
+                    <br />
+                    <h4> Actor & Enviromentalist</h4>
+                    <p> The Oscar-winning actor has long been involved in a series of environmental causes by working directly or though his Enviromental Foundation which works toward restoring balance to threatened ecosystems </p>
+                </div>
+
+                <div class="card">
+                    <img src="/images/Marco.jpg" />
+                    <h3 style="text-align : center"> Marco Lambertine</h3>
+                    <br />
+                    <h4> CEO of WWF</h4>
+                    <p>Every since Marco joined the office his goal is to drive the achievement of the global conservation organization’s critical mission to save life on Earth no matter how much sweat and blood he has to put in it  </p>
+                </div>
+            </div>
+        </main>
+
+        <article id="register_anchor">
+            <div class="floattext">
+                <form>
+                    <h1>
+                        <span class="dankBlueColor" style="padding-right:35px">
+                            Register
+                            <br /> for the <br />
+                            Event
+                        </span>
+                    </h1>
+                    <!--<h1> <span class="salmoncolor">Register FOR</span> <br /> <span class="lavendercolor">ENTRY, </span> <br /> FOOD</h1>--> 
+                    <button type="submit" formaction="#openModal1">Register </button>
+                </form>
+            </div>
+
+
+
+            <div id="openModal1" class="modalDialog">
+                <div>
+                    <a href="#close" class="close">X</a> <br />
+                    <h1>
+                        First Annual Environmental Conference 2017 <br />
+                        <span class="salmoncolor">ONLINE REGISTATION</span> <br />
+                    </h1>
+                    <textarea placeholder="Name / Last Name"></textarea>
+                    <textarea placeholder="School/Institution"></textarea>
+                    <textarea placeholder="Email"></textarea>
+                    <form>
+                        <button type="submit" formaction="#openModal1">Send </button>
+                    </form>
+
+                </div>
+            </div>
+
+
+
+
+        </article>
+
+
+        <section id="timetable_area">
+            <!--// Section is the same as DIV -->
+            <h2>SCHEDULE</h2>
+            <table>
+                <tr>
+                    <th class="no_line"> </th>
+                    <th>Friday, <br /> January 26 </th>
+                    <th>Saturday <br /> January 27 </th>
+                    <th>Sunday <br /> January 28 </th>
+                    <th>Monday <br /> January 29</th>
+                <tr>  <!-- //among the first row we will have 4 header  -->
+
+                <tr>
+                    <td class=" r_align">10:00-12:00</td>
+                    <td> Meet & Greet</td>
+                    <td>Leo Talk by Leonoardo Dicarprio</td>
+                    <td>Tree Planting (Field Work)</td>
+
+                    <!-- <td rowspan="6"><span class="single_row">Ending C0eremony</span></td> -->
+                </tr>
+
+                <tr>
+                    <td class=" r_align">12:00-13:00</td>
+                    <td><span class="lunch_break"> Lunch Break </span></td>
+                    <td><span class="lunch_break"> Lunch Break </span></td>
+                    <td><span class="lunch_break"> Lunch Break </span></td>
+
+                </tr>
+
+                <tr>
+                    <td class=" r_align"> 13:00-18:00</td>
+                    <td>Haklay's:Me & My research  <br /><a href="Hakley's_Research.pdf"> Download PDF packet</a></td>
+                    <td>Movie: "Before The Flood" Leonardo Dicaprio Climate Change Documentary</td>
+                    <td>"My Responibility as CEO" by WWF Marco Lambertine</td>
+                    <td>"Event Ending <br />Starting Ceremony"</td>
+                </tr>
+
+                <tr>
+                    <td class=" r_align">17:00-19:00</td>
+                    <td>Haklay's: Me & My research (Continued) <br /><a href="Hakley's_Research.pdf"> Download PDF packet</a> </td>
+                    <td>Movie: Before The Flood Leonardo Dicaprio Climate Change Documentary(Cont.)</td>
+                    <td> "My Responibility as CEO" by WWF Marco Lambertine(Contin.)</td>
+                    <td>Event Dinner</td>
+                </tr>
+
+                <tr>
+                    <td class=" r_align">17:00-19:00</td>
+                    <td>Understanding the changing world:Workshop</td>
+                    <td>Meet and Greet with Leonardo DiCaprio</td>
+                    <td>"What i learned in my Wallmart experience" by Jenny Ahlen</td>
+                    <td>Ending Speech by Hosts</td>
+                </tr>
+
+
+                <tr>
+                    <td class=" r_align">19:00-21:00</td>
+                    <td>Understadning the importance of tree's workshop</td>
+                    <td> Workshops run simultanously <br /> Discovery Stages(continued)</td>
+                    <td> One to One talk with Jenny Ahlen </td>
+                </tr>
+            </table>
+
+
+            <div class=" card">
+                <div>
+                    <h3>
+                        Haklay: <br />
+                        Me & My reaearch
+                    </h3>
+                    <blockquote>
+                        A Note On Time Workshop.
+                        "This report explores the intersection of citizen science and policy at local, regional,
+                        and national levels and across policy domains, on the basis of the emerging
+                        experience in Europe."
+                    </blockquote>
+
+                    <p>   Firday 13:00 - 19:00 </p>
+                    <p>Location: MSSF110</p>
+                    <button type="submit" formaction="#openModal1">Register </button>
+                </div>
+
+            </div>
+
+            <div>
+
+
+
+                <div class="card">
+                    <h3>
+                        Planting Workshop
+                    </h3>
+                    <blockquote>
+                        "This world is drastically being depleted of its Trees. By this deplection carbon diooxide and other poluution are high on rise which increase is increasing the environment.
+                        To compensate for this heat we use energy to cool ourself .Thus it is important for us to a least join our hands together and Plant trees, to decrease the heat and not waste Eart's resourses"
+                    </blockquote>
+                    <p>Sunday 10:00 - 12:00</p>
+                    <p>Location: Bilkent Mayfest cinalan</p>
+                    <button type="submit" formaction="#openModal3">Register </button>
+                </div>
+
+
+                <div class="card">
+                    <h3>
+                        My Responibility as CEO
+                    </h3>
+                    <blockquote>
+                        "It is not a surprise because climate change is the issue of our time and particularly in the region this conference is taking place.
+                        The emphasis of climate change is welcome by the WWF. But the real question  is WHAT IS HAPPENING AROUND US?"
+                    </blockquote>
+                    <p>
+                        Sunday 13.00-19.00
+                    </p>
+                    <p>Sunday 13:00 - 19:00</p>
+                    <p>Location: Bilkent auditorium</p>
+                    <button type="submit" formaction="#openModal4">Register </button>
+                </div>
+
+                <div class="card">
+                    <h3>
+                        Leo Talks
+                    </h3>
+                    <blockquote>
+                        "We have known about this for decades ,for over hhalf a century .Try having a conversation about climate change and perople tune out
+                        and the problem seems to be getting worse and worse worse. In this converence we discusss that we are knowningly harming the environement"
+                    </blockquote>
+                    <p>Saturday 13:00 - 21:00</p>
+                    <p>Sunday 13:00 - 19:00</p>
+                    <p>Location: Bilkent auditorium</p>
+                    <button type="submit" formaction="#openModal5">Register </button>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <section id="map_area">
+            <h2><b>Location</b></h2>   
+            <img src="/images/myMap2.png" />
+        </section>
+
+        <div class="footer">
+
+            <div class ="footer" ; style="float:left ; margin-left:240px ; margin-top:5px; ">
+                <span class="footerCard">
+                    <b>Contact US</b> <br /> <br />
+                </span>
+                
+
+                <span class="footerCard ">
+
+                    Bilkent University <br />
+                    Dean of Students<br />
+                    06800 Ankara, Turkey<br />
+                    0 312 266 78 33; <br />
+
+                </span>
+            </div>
+
+
+            <div class ="footerRight" ;style="float:right  ; margin-right:250px">
+
+                
+                <span class="footerCard">
+                    <b>Stay Connected</b>
+                </span>
+                <div class="footerSocial">
+                    <span class="footerCard">
+                        <a href="https://www.facebook.com/BilkentUniversitesi/">
+                            <img src="images/facebook.png" width="50" height="50" />
+                        </a>
+
+                    </span>
+                    <span class="footerCard">
+                        <a href="https://twitter.com/bilkentuniv?lang=en">
+                            <img src="images/twitter.png" width="50" height="50" />
+                        </a>
+                    </span>
+
+                    <span class="footerCard">
+                        <a href="https://www.facebook.com/BilkentUniversitesi/">
+                            <img src="images/instagram.png" width="50" height="50" />
+                        </a>
+                    </span>
+                </div>
+
+            </div>
+
+            <!--</div>-->
+            <!--<div class="footerCard">
+                Stay Connected<br />
+                <ul style="float:right">
+                    <li ><a href="https://www.facebook.com/BilkentUniversitesi/">FaceBook</a></li>
+                    <li><a href="https://twitter.com/bilkentuniv?lang=en">Twitter</a></li>
+                    <li ><a href="https://www.facebook.com/BilkentUniversitesi/">Instagram</a>
+                    </li>
+
+                </ul>
+
+            </div>-->
+        </div>
+
+    </div>
+
+
+</body>
+
+
+
+</html>

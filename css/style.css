@@ -1,0 +1,823 @@
+ /*dsadsad*/
+ body	{
+	background-image: url('/images/newOne.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat:no-repeat;
+
+}
+
+#wrapper {
+	width: 80%;
+	height: auto;
+	margin:40px auto 40px auto; /* 1st value: margin-top, 2nd value is margin-right, 3rd :botton, 4th:left */
+	background-color: rgba(252,251,250,0.8);
+	border-radius: 8px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.3);
+    overflow:auto;
+}
+header {
+    width: 100%;
+    height: 850px; /*put belwo 700*/
+    background-image: url('images/fly_birds.gif');
+    background-color: red; /* For browsers that do not support gradients */
+
+    background: url('/images/heroImg2.png'), linear-gradient(rgb(90, 189, 255), green); /* Standard syntax */
+    
+    /*background-image: url('/images/heroImg2.png');*/
+    /*,url('images/Environmental-Studies-Banner1.jpg')*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+#headImage {
+    float: left;
+    width: 40%; 
+    height :400px;
+    margin :240px 0 20px 20px;
+    background-image: url('/images/heroImg3.png'),  url('/images/fly_birds2.gif');
+    background-size :contain ;
+    background-repeat :no-repeat ;
+}
+
+#herotype{
+    width: 33%;
+    float: right;
+    margin-top: 155px;
+    margin-right: 63px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.3);
+}
+
+h1{
+    font-size : 40px;
+    color:#607d8b;
+    letter-spacing: 10px;
+    font-family: 'Slabo 27px', serif;
+    /*font-family:'Roboto' , 'Georgia' , 'sans-serif';*/
+    font-weight: 300;
+}
+
+.title{
+    text-align:center;
+    color:dimgray;
+}
+
+.salmoncolor{
+    color:rgb(255, 0, 117);
+}
+.lavendercolor{
+    color:#4599a3;
+}
+.dankBlueColor{
+    color:#003838;
+}
+
+main {
+    margin-top: 9px;
+    float:left;
+}
+
+.card {
+        width:22.5%;
+        margin-left: 2%;
+        float:left;
+         height: 679px;
+        background-color:white;
+
+        box-shadow: 0 9px 18px rgba(0,0,0,0.30);
+       /*overflow:visible;*/
+         /*overflow-wrap:break-word ;*/
+
+}
+
+
+
+.card img { /*nesting stle we are calling the images that are only within the card*/
+                width: 83%;
+                margin-top: 10%;
+                margin-left: 8%;
+            border-radius :50%;
+}
+
+h2{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    color : rgba(0,0,0,0.54);
+}
+
+h3{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin : 24px 0 0 16px; /*top right bottom left*/
+    color : rgba(0,0,0,0.54);
+}
+
+h4{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin : 16px 0 0 16px;
+    color: #7e9f09;
+}
+
+.card p{ /* p only in the card*/
+    font-family: 'Slabo 27px', serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin : 16px 0 0 16px;
+    color: rgba(0,0,0,0.87);
+    overflow:auto;
+    overflow-wrap:break-word;
+
+}
+p{
+
+    font-size:20px;
+}
+article {
+    margin-top: 96px;
+    width: 100%;
+    height: 678px; /*put belwo 700*/
+    background-image: url('/images/odeon.jpg');
+    background-image: url('/images/EnvironmentBanner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.floattext{/* the class we mad*/
+    margin: 20px;
+        width: 270px;
+    height :auto ;
+    float: left;
+    background-color :rgba(245, 255, 0, 0.39) ;
+    border-radius :20%;
+    text-align :center ;
+    padding :20px;
+     box-shadow: 0 9px 18px rgba(0,0,0,0.30);
+}
+
+.floattext h1{/* targeting the h1 within the float text class*/
+    margin-left: 20%;
+}
+
+nav ul{ /*THE FIXED AND PROPER ONE*/
+    width: 650px;
+    margin-left: 420px;
+    margin-top: 42px;
+    font-size:23px;
+    }
+
+button{
+    width:150px;
+   background-color :#0EAF00;
+    /*background-color : #ff799c;*/
+    border:none;
+    border-radius : 3px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20%;
+    padding:8px;
+    cursor : pointer;
+    transition: all 0.3s ease 0s; /*when mouse hovers on top of this it takes time for the color to change*/
+}
+
+button:hover{
+    background-color:#607d8b;
+    box-shadow: 0 9px 18px rgba(0,0,0, 0.3);
+}
+
+     .footerRight{
+             float: right;
+    margin-right: 191px;
+    width: 284px;
+     }
+
+     .footerLeft{
+             float: left;
+            margin-left: 95px;    
+            margin-top: 5px;
+
+     }
+
+#timetable_area {
+    width :100%;
+    float: left;
+    margin-top: 96px;/*we used the same think as in the main*/
+}
+
+#timetable_area .card{
+       
+        width:22.5%;
+        margin-top:24px;
+        margin-left: 2%;
+        float:left;
+        height: 615px;
+        background-color:transparent;
+        border-radius: 2px;
+        box-shadow:none;  
+}
+
+#timetable_area button{
+     margin : 16px;
+}
+
+table{
+    width:96%;
+     font-family: 'Slabo 27px', serif;
+     font-size: 20px;
+     line-height: 24px;
+     text-align:left;
+     margin: 26px auto 96px auto;
+     background-color:white;
+     box-shadow: 0 9px 18px rgba(0,0,0, 0.3);
+    border-spacing:22px 22px /* basically it separates the cell from each other*/
+
+}
+
+th {
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0,0,0, 0.7); /*thickness ,the kind of border , specfy the color of the boxes */
+    padding:8px; /* the enter between the date headers*/
+}
+
+.r_align{ /* THE CLASS STARTS WITH PERIOD*/
+    text-align:right;
+    color: rgba(0,0,0,0.54);
+}
+.no_line {
+    border-bottom: none;
+}
+.lunch_break{
+        color: rgba(0,0,0,0.54);
+}
+
+a {
+    color: #aabee0;
+    text-decoration: none; /*removes the underline under the url*/
+    transition: all 0.3s ease 0s; /*when mouse hovers on top of this it takes time for the color to change*/
+    
+}
+.single_row{
+   /* word-break:break-word;*/
+   font-size: 25px;
+
+}
+
+a:hover{ /*We definted the gober option of the hover option of the link*/
+   color :red;
+}
+
+nav {
+    position : fixed;
+    width:inherit ;
+    /*width  : 1200px;*/
+    top: 20px ;
+    font-family: 'Slabo 27px', serif;
+
+    font-size:20px;
+   font-weight : 400;
+
+    
+
+}
+li{  /*define s a list of items*/
+    display : inline ;    /*to make the text horizontaltal*/
+   padding: 0 10px; /*if they are symmetrical this reperestnatin of paddingis the sae as 0 10px 0 10px*/
+   color:black;
+   margin-top:-16px;    
+}
+
+ul a{
+    color : white;
+}
+
+ul{ /*Defines an unordered list */
+        width: 631px;
+    margin-left: 255px;
+    text-align: center;
+    padding:20px;
+    border-radius:5px;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.5);
+ background-color:rgba(156, 156, 156, 0.57);
+
+}
+
+
+blockquote{ 
+    
+    font-family: 'Slabo 27px', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin : 16px 0 0 16px;
+    color:#00380B;
+   /*  color:rgba(199, 101, 2, 0.80);*/
+}
+
+
+
+
+#map_area{
+    width:100%;
+    float:left;
+
+}#map_area img{
+     width: 90%;
+     margin: 0 auto;
+     display:block;
+     margin-bottom: 84px;
+ }
+
+ .modalDialog{
+     position:fixed;
+     top:0;
+     right:0;
+     bottom:0;
+     left:0;
+     overflow:auto;
+     background:rgba(0,0,0,0.75);
+     z-index:99999; /*the higer the number it will appear in front of the other index
+                    to make sure that it is the top elemetn to be displayed */
+     opacity:0;
+     pointer-events: none;
+     font-family:Rockwell;
+ }
+
+ .modalDialog:target{
+     pointer-events:auto;
+         opacity: 1;
+
+ }
+ .modalDialog > div { /*only the imeediate child of the div will be selected*/
+        width:60%;
+        position : relative;/*the contants wof this div will be positioned in relative to this satare*/
+        margin: 10%;
+       /* background:#5A453F;*/
+       background: linear-gradient(rgb(90, 69, 63), green);
+        border-radius:4px;
+        padding:24px 48px;
+ }
+
+ .close {
+     background :#ff799c ;
+     color:#fff;
+     font-weight:700;
+     text-align:center;
+     position : absolute;
+     line-height:40px;
+     width:40px; 
+     border-radius: 20px;
+     top: -20px;/*-  haaf of the width pf the original button */
+     right:-20px;
+     box-shadow: 0 6px 9px rgba(0,0,0,0.3);
+     transition : all 0.3s ease; 
+ }
+
+ .close:hover{
+     background:dimgray;
+     box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+
+ }
+
+ textarea{
+     display:block;
+     width : 80%;
+     margin: 10px auto 10px auto;
+     font-family: 'Slabo 27px', serif;
+     font-size: 16px;
+     background:#eceff1;
+     outline:none; /*outline is the blue outser border*/
+     border: none;
+     resize: none;      
+ }
+
+ .modalDialog form {
+     width: 80%;
+     margin : 0 auto;
+ }
+
+ .modalDialog button{
+     width : 100px;
+     margin-left : -2px !important;
+ }
+
+  .footer{
+     /*position :relative ;
+     bottom:0;left:0;right:0;*/
+    background-color: #efefef;
+  text-align: center;
+    clear: both;
+       z-index: 10;
+    height: 250px;
+   width:100%;
+  padding-top:20px;
+
+
+
+ }
+
+.footerCard {
+            padding:20px; 
+         text-align:center;
+         font-size:25px;
+         font-weight:400;
+        color :dimgray;
+}
+.footerSocial{clear:both;
+              text-align:center;
+              margin:0 auto;
+              width:100% ;
+              padding-top:50px;
+              padding-bottom:20px;
+
+}
+
+
+ /*tablet landscape ,tablet protrat*/
+ @media screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation:landscape) /*these vlues aren;t gonna be asked in quiz*/
+ {
+    /*all these elements are a series of curly brackets*/
+    /*overwriting the wrapper element */
+    #wrapper {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 14px;
+        font-weight: 200;
+        top: 0px;
+        width: 95%;
+       
+    }
+
+
+    nav ul{ /*THE FIXED AND PROPER ONE*/
+    width: 492px;
+    margin-left: 255px;
+    margin-top: 42px;
+    }
+ #headImage {
+         width: 30%;
+    height :400px;
+    margin :70px 0 20px 20px;
+    }
+ #herotype {
+        width: 50%;
+          float: right;
+    margin: 70px 5px 5px 0;
+       padding: 5px;
+      
+ color: #607d8b;
+    letter-spacing: 3px;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 200;
+       
+    }
+
+    .card { /*example of multiple selectors*/
+        width: 45%;
+         margin-top: 27px;
+             margin-left: 34px;
+         height :800px;
+        text-overflow :ellipsis;
+        overflow :auto  /*this poroterty*/
+    }
+    #timetable_area .card {
+    width: 45%;
+         margin-top: 20px;
+         height :440px;
+        text-overflow :ellipsis;
+        overflow :auto  
+}
+    table {
+        width: 95%;
+    }
+
+         .footerRight{
+             float: right;
+    margin-right: 133px;
+    width: 286px;
+     }
+
+     .footerLeft{
+             float: left;
+             margin-left: 134px;
+                    
+            margin-top: 5px;
+
+     }
+    
+    
+ }
+
+  /*tablet landscape ,tablet protrat*/
+ @media screen and (min-device-width : 768px) and (max-device-width: 1024px) and (orientation:portrait) /*these vlues aren;t gonna be asked in quiz*/
+ {
+    /*all these elements are a series of curly brackets*/
+    /*overwriting the wrapper element */
+    #wrapper {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 14px;
+        font-weight: 200;
+        top: 0px;
+        width: 95%;
+    }
+    nav ul{ /*THE FIXED AND PROPER ONE*/
+    width: 596px;
+    margin-left: 50px;
+
+    }
+      #timetable_area {
+    width: 100%;
+    float: left;
+    margin-top: 96px;
+    margin-bottom: 50px;
+}
+
+ #headImage {
+         width: 40%;
+    height :300px;
+    margin :70px 0 20px 20px;
+    }
+ #herotype {
+         width:48%;
+          float: right;
+    margin: 79px 5px 5px 0;
+       padding: 5px;
+       
+ color: #607d8b;
+    letter-spacing: 3px;
+   font-family: 'Slabo 27px', serif;
+    font-weight: 200;
+       
+    }
+  .card { /*example of multiple selectors*/
+        width: 45%;
+         margin-top: 20px;
+         margin-left:26px;
+         height :700px;
+        text-overflow :ellipsis;
+        overflow :auto 
+          /*this poroterty*/
+    }
+   #timetable_area .card {
+    width: 45%;
+         margin-top: 20px;
+         height :450px;
+        text-overflow :ellipsis;
+        overflow :auto  
+}
+   table {
+        width: 95%;
+    }
+
+     .footerRight{
+             float: right;
+             margin-right: 5px;
+            width: 373px;
+     }
+
+     .footerLeft{
+             float: left;
+                 margin-left: 78px;
+                    
+            margin-top: 5px;
+
+     }
+
+   
+ }
+
+ /*tablet landscape ,phone lanscape*/
+ @media screen and (min-device-width : 320px) and (max-device-width: 750px) and (orientation:landscape) /*these vlues aren;t gonna be asked in quiz*/
+ {
+     /*all these elements are a series of curly brackets*/
+    /*overwriting the wrapper element */
+     #wrapper {
+          width: 444px;
+    }
+
+    nav {
+        font-size: 14px;
+        font-weight: 200;
+        top: 0px;
+        width: 95%;
+        padding :1px;
+    }
+
+  nav ul{ /*THE FIXED AND PROPER ONE*/
+    width: 402px;
+    margin-left: 15px;
+    padding :12px;
+
+    }
+  .floattext h1 {
+    margin-left: 5%;
+}
+
+ #headImage {
+         width: 30%;
+    height :150px;
+    margin :70px 0 20px 20px;
+    }
+ #herotype {
+         width:77%;
+         margin-right:24px;
+          float: right;
+   /* margin: 70px 5px 5px 0;*/
+          margin-top:129px;
+         padding: 14px;
+       font-size: 8px;
+        color: #607d8b;
+     letter-spacing: 3px;
+        font-family: 'Slabo 27px', serif;
+    font-weight: 200;
+       
+    }
+    .card{ /*example of multiple selectors*/
+         width: 95%; 
+        margin-top: 32px;
+         height :800px;
+        text-overflow :ellipsis;
+        overflow :auto 
+    }
+     #timetable_area .card {
+    width: 95%;
+         margin-top: 20px;
+         height :600px;
+        text-overflow :ellipsis;
+        overflow :auto  
+}
+
+    table {
+        width: 95%;
+    }
+
+    
+
+    ul {
+        padding: 0;
+    }
+         .footerRight{
+             float: right;
+             margin-right: 5px;
+            width: 188px;
+     }
+
+     .footerLeft{
+             float: left;
+                    
+            margin-top: 5px;
+
+     }
+
+   
+ }
+
+
+ 
+ /*tablet landscape ,phone portrat*/
+@media screen and (min-device-width : 320px) and (max-device-width: 480px) and (orientation:portrait) /*these vlues aren;t gonna be asked in quiz*/
+{
+    /*all these elements are a series of curly brackets*/
+    /*overwriting the wrapper element */
+    header{
+        height:576px;
+
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 14px;
+        font-weight: 200;
+        top: 0px;
+        width: 95%;
+        padding: 2px;
+    }
+
+   nav ul{ /*THE FIXED AND PROPER ONE*/
+    width: 282px;
+    margin-left: 2px;
+    margin-top: 31px;
+    padding-top: 22px;
+    font-size: 18px;
+    text-align: center;
+
+    }
+   .floattext{
+       width: 126px;
+   }
+
+    #headImage {
+        width: 30%;
+        height: 150px;
+        margin: 70px 0 20px 20px;
+    }
+
+    #herotype {
+        width: 93%;
+        float: right;
+        margin: 70px 5px 5px 0;
+        padding: 5px;
+        font-size: 6px;
+        color: #607d8b;
+        letter-spacing: 3px;
+        font-family: 'Slabo 27px', serif;
+        font-weight: 200;
+    }
+
+    #herotype h1{
+        font-size:29px;
+    }
+     #herotype h2{
+        font-size:21px;
+    }
+
+    li { /*define s a list of items*/
+        padding: 0 5px; /*if they are symmetrical this reperestnatin of paddingis the sae as 0 10px 0 10px*/
+        color: black;
+    }
+
+    ul a {
+        color: white;
+    }
+
+    ul { /*Defines an unordered list */
+        text-align: center;
+        padding: 5px;
+    }
+
+
+
+    .card{ /*example of multiple selectors this poroterty*/
+        width: 95%;
+        margin-top: 20px;
+         height :800px;
+        text-overflow :ellipsis;
+        overflow :auto 
+
+    }
+     #timetable_area .card {
+    width: 95%;
+         margin-top: 20px;
+         height: 493px;
+        text-overflow :ellipsis;
+        overflow :auto  
+}
+
+    .floattext h1 { /* targeting the h1 within the float text class*/
+        font-size: 12px;
+    }
+
+    button {
+        width: 55px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-left: 0;
+        padding: 2px;
+        margin-bottom: 5px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+  .footerCard {
+    padding:10px;  text-align:center;font-size:12px;  font-weight:400;color :dimgray
+}
+   .footerSocial{padding:20px}
+
+
+     .footerRight{
+             float: right;
+             margin-right: -6px;
+            width: 188px;
+     }
+
+     .footerLeft{
+             float: left;
+                 margin-left: 12px;
+                    
+            margin-top: 5px;
+
+     }
+
+
+}
